@@ -1,0 +1,25 @@
+rsID,risk_allele,RAF,OR,beta,pvalue,Reported trait,gene,URL,beta_final
+rs1333049,C,0.47,1.47,,1e-13,Coronary heart disease,CDKN2B-AS1,https://www.ebi.ac.uk/gwas/variants/rs1333049,0.3852624007906449
+rs4977574,G,0.53,1.3,,5e-14,Coronary artery disease,CDKN2B-AS1,https://www.ebi.ac.uk/gwas/variants/rs4977574,0.26236426446749106
+rs10757274,G,0.46,1.37,,8e-45,Coronary heart disease,CDKN2B-AS1,https://www.ebi.ac.uk/gwas/variants/rs10757274,0.3148107398400336
+rs17465637,A,0.2903,,-0.0817,8e-31,Coronary artery disease,MIA3,https://www.ebi.ac.uk/gwas/variants/rs17465637,-0.0817
+rs599839,A,0.77,1.29,,4e-09,Coronary heart disease,"PSRC1, CELSR2",https://www.ebi.ac.uk/gwas/variants/rs599839,0.25464221837358075
+rs646776,T,0.79,1.33,,1.9999999999999998e-30,Coronary artery disease,"CELSR2, PSRC1",https://www.ebi.ac.uk/gwas/variants/rs646776,0.28517894223366247
+rs11206510,T,0.82,1.08,,9e-08,Coronary heart disease,"BSND, PCSK9",https://www.ebi.ac.uk/gwas/variants/rs11206510,0.0769610411361284
+rs11591147,T,0.016,,-0.282,2e-25,Coronary artery disease,PCSK9,https://www.ebi.ac.uk/gwas/variants/rs11591147,-0.282
+rs501120,T,0.87,1.33,,9e-08,Coronary heart disease,"LINC00841, LINC03089",https://www.ebi.ac.uk/gwas/variants/rs501120,0.28517894223366247
+rs1746048,C,0.87,1.09,,3e-10,Coronary heart disease,"LINC02881, LINC03089",https://www.ebi.ac.uk/gwas/variants/rs1746048,0.08617769624105241
+rs3184504,T,0.4721,,0.0742,5e-30,Coronary artery disease,"SH2B3, ATXN2",https://www.ebi.ac.uk/gwas/variants/rs3184504,0.0742
+rs6725887,C,0.15,1.14,,1e-09,Coronary heart disease,WDR12,https://www.ebi.ac.uk/gwas/variants/rs6725887,0.131028262406404
+rs9818870,T,0.15,1.15,,7e-13,Coronary heart disease,MRAS,https://www.ebi.ac.uk/gwas/variants/rs9818870,0.13976194237515863
+rs12526453,C,0.67,1.1,,1e-09,Coronary heart disease,PHACTR1,https://www.ebi.ac.uk/gwas/variants/rs12526453,0.09531017980432493
+rs579459,C,0.21,1.1,,4e-14,Coronary heart disease,"Y_RNA, ABO",https://www.ebi.ac.uk/gwas/variants/rs579459,0.09531017980432493
+rs2107595,A,0.18,,0.082,4e-24,Coronary artery disease,"HDAC9, TWIST1",https://www.ebi.ac.uk/gwas/variants/rs2107595,0.082
+rs9982601,T,0.15,1.18,,4e-10,Coronary heart disease,"MRPS6, KCNE2, LINC00310",https://www.ebi.ac.uk/gwas/variants/rs9982601,0.16551443847757333
+rs4773144,G,0.44,1.07,,4e-09,Coronary heart disease,COL4A2,https://www.ebi.ac.uk/gwas/variants/rs4773144,0.06765864847381486
+rs10953541,C,0.8,1.08,,3e-08,Coronary heart disease,"DUS4L-BCAP29, BCAP29",https://www.ebi.ac.uk/gwas/variants/rs10953541,0.0769610411361284
+rs3798220,C,0.02,1.51,,3e-11,Coronary heart disease,LPA,https://www.ebi.ac.uk/gwas/variants/rs3798220,0.412109650826833
+rs10455872,G,0.065,1.31,,2e-49,Coronary heart disease,LPA,https://www.ebi.ac.uk/gwas/variants/rs10455872,0.2700271372130602
+rs662799,G,0.14,1.07,,6e-09,Coronary heart disease,APOA5,https://www.ebi.ac.uk/gwas/variants/rs662799,0.06765864847381486
+rs7412,T,0.08,,-0.16,3e-39,Coronary heart disease,APOE,https://www.ebi.ac.uk/gwas/variants/rs7412,-0.16
+rs429358,T,0.848,0.913,,4e-38,Coronary artery disease,APOE,https://www.ebi.ac.uk/gwas/variants/rs429358,-0.09101939838716855
