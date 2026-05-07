@@ -1,0 +1,63 @@
+Output of src/simulate_1000genotypes.py 
+
+Simulated genotype matrix with PRS:
+
+  person_id  rs1333049  rs4977574  rs10757274  rs17465637  rs599839  ...  rs3798220  rs10455872  rs662799  rs7412  rs429358       PRS
+0        P1          1          1           2           0         2  ...          0           0         0       0         2  2.872087
+1        P2          0          2           1           0         2  ...          0           1         0       0         2  3.386211
+2        P3          0          1           1           1         2  ...          0           0         0       0         2  2.572936
+3        P4          1          1           1           0         1  ...          0           0         0       0         1  2.979600
+4        P5          2          0           1           1         1  ...          0           0         0       1         2  2.856323
+
+[5 rows x 26 columns]
+
+PRS summary:
+
+count    1000.000000
+mean        2.941422
+std         0.535380
+min         1.211442
+25%         2.591245
+50%         2.969981
+75%         3.311459
+max         4.451958
+Name: PRS, dtype: float64
+
+Saved: pic/prs_distribution.png
+
+Top 5% PRS individuals:
+
+    person_id       PRS
+26        P27  4.116923
+40        P41  3.814165
+57        P58  3.971334
+90        P91  4.073108
+117      P118  4.104685
+
+Bottom 5% PRS individuals:
+
+   person_id       PRS
+7         P8  1.842602
+10       P11  1.745767
+23       P24  1.495529
+31       P32  1.652861
+41       P42  1.575435
+
+Top 5% threshold: 3.7974820123098993
+Bottom 5% threshold: 2.0145440271438493
+
+Top vs Bottom PRS genotype comparison:
+
+          rsID                  gene  top_mean_genotype  bottom_mean_genotype  difference
+0    rs1333049            CDKN2B-AS1               1.58                  0.32        1.26
+2   rs10757274            CDKN2B-AS1               1.52                  0.30        1.22
+1    rs4977574            CDKN2B-AS1               1.46                  0.42        1.04
+5     rs646776         CELSR2, PSRC1               1.92                  1.16        0.76
+4     rs599839         PSRC1, CELSR2               1.92                  1.20        0.72
+8     rs501120  LINC00841, LINC03089               1.94                  1.48        0.46
+13  rs12526453               PHACTR1               1.56                  1.12        0.44
+9    rs1746048  LINC02881, LINC03089               1.82                  1.46        0.36
+6   rs11206510           BSND, PCSK9               1.78                  1.46        0.32
+12   rs9818870                  MRAS               0.40                  0.08        0.32
+
+Saved: pic/top_vs_bottom_prs_comparison.png
