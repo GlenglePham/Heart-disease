@@ -21,7 +21,6 @@ in order to calculate how strongly each SNP contributed to overall PRS variabili
 ![Pic](pic/calculate_contribution.png)
 
 
-
 This is part of the result:
 
 ![Pic](pic/snp_contributions.png)
