@@ -18,6 +18,8 @@ Based on these values, I generated 1000 simulated individuals and developed a si
 
 In order to calculate how strongly each SNP contributed to overall PRS variability in the population, I used:
 
+2 * raf * (1 - raf) * (beta ** 2)
+
 This is part of the result:
 
           rsID                     gene    RAF      beta  contribution
