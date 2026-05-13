@@ -1,32 +1,25 @@
-Basically, what I did was create code to identify which SNPs contribute most strongly to CAD risk.
+What we did was create code to identify which SNPs contribute most strongly to CAD risk.
 
 I used this dataset:
-[https://docs.google.com/spreadsheets/d/1IlSFTSaMOc8Zpo8SFytIKrBtFUc9s5B0BZuvoY3ahQU/edit?usp=sharing)
+data/SNP_Dataset.csv
+https://docs.google.com/spreadsheets/d/1IlSFTSaMOc8Zpo8SFytIKrBtFUc9s5B0BZuvoY3ahQU/edit?usp=sharing
 
 In the dataset:
-
-* RAF represents how frequently the risk allele appears in the population
-* OR/Beta represents how strongly the variant affects CAD risk
+RAF represents how frequently the risk allele appears in the population
+OR/Beta represents how strongly the variant affects CAD risk
 
 OR and Beta are basically equivalent because:
 
-\beta = \log(OR)
+β=log(OR)
 
-I included both because some SNPs data only had OR values available, while others only had Beta values.
+I included both because some SNP data only had OR values available, while others only had Beta values.
 
-Based on these values, I generated 1000 simulated individuals and developed a simple algorithm to estimate which SNPs contribute most strongly to CAD risk using both RAF and OR/Beta.
+Based on these values, I generated 1000 simulated individuals and developed a simple algorithm to estimate which SNPs contribute most strongly to CAD risk using both RAF and OR/Beta values.
 
-in order to calculate how strongly each SNP contributed to overall PRS variability in the population, I used
-
-![Pic](pic/calculate_contribution.png)
-
-
+In order to calculate how strongly each SNP contributed to overall PRS variability in the population, I used:
 
 This is part of the result:
 
-![Pic](pic/snp_contributions.png)
-
-```text
           rsID                     gene    RAF      beta  contribution
 0    rs1333049               CDKN2B-AS1  0.470  0.385262      0.073946
 2   rs10757274               CDKN2B-AS1  0.460  0.314811      0.049236
@@ -38,6 +31,5 @@ This is part of the result:
 16   rs9982601  MRPS6, KCNE2, LINC00310  0.150  0.165514      0.006986
 19   rs3798220                      LPA  0.020  0.412110      0.006658
 12   rs9818870                     MRAS  0.150  0.139762      0.004981
-```
 
 As you can see, SNPs in the CDKN2B-AS1 locus had the largest contribution to CAD risk in this simulation.
